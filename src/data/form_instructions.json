@@ -1,0 +1,491 @@
+{
+  "theme": {
+    "primary_color": "#623CEA",
+    "secondary_color": "#E7DFC6",
+    "background_color": "#E9F1F7",
+    "text_color": "#54426B"
+  },
+  "sections": [
+    {
+      "id": "about",
+      "title": "About You",
+      "content": [
+        {
+          "id": "fullname",
+          "type": "text",
+          "metadata": {
+            "format": "text",
+            "required": true
+          },
+          "question_text": "Full name"
+        },
+        {
+          "id": "email",
+          "type": "text",
+          "metadata": {
+            "format": "email",
+            "pattern": "[a-zA-Z0-9.#$%&'*+\\/=?^_`{|}~][a-zA-Z0-9.!#$%&'*+\\/=?^_`{|}~-]*@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*",
+            "required": true,
+            "placeholder": "email@example.com"
+          },
+          "question_text": "Email Address"
+        },
+        {
+          "id": "age",
+          "type": "boolean",
+          "metadata": {
+            "required": true
+          },
+          "question_text": "Are you 18 years of age or older?"
+        }
+      ]
+    },
+    {
+      "id": "your-fit",
+      "title": "Your Fit",
+      "content": [
+        {
+          "id": "languages",
+          "type": "multichoice",
+          "metadata": {
+            "options": [
+              {
+                "label": "English",
+                "value": "English"
+              },
+              {
+                "label": "French",
+                "value": "French"
+              },
+              {
+                "label": "Spanish",
+                "value": "Spanish"
+              },
+              {
+                "label": "Dutch",
+                "value": "Dutch"
+              },
+              {
+                "label": "German",
+                "value": "German"
+              },
+              {
+                "label": "Italian",
+                "value": "Italian"
+              },
+              {
+                "label": "Japanese",
+                "value": "Japanese"
+              },
+              {
+                "label": "Korean",
+                "value": "Korean"
+              },
+              {
+                "label": "Polish",
+                "value": "Polish"
+              },
+              {
+                "label": "Akan",
+                "value": "Akan"
+              },
+              {
+                "label": "Amharic",
+                "value": "Amharic"
+              },
+              {
+                "label": "Arabic",
+                "value": "Arabic"
+              },
+              {
+                "label": "Assamese",
+                "value": "Assamese"
+              },
+              {
+                "label": "Awadhi",
+                "value": "Awadhi"
+              },
+              {
+                "label": "Azerbaijani",
+                "value": "Azerbaijani"
+              },
+              {
+                "label": "Balochi",
+                "value": "Balochi"
+              },
+              {
+                "label": "Belarusian",
+                "value": "Belarusian"
+              },
+              {
+                "label": "Bengali (Bangla)",
+                "value": "Bengali (Bangla)"
+              },
+              {
+                "label": "Bhojpuri",
+                "value": "Bhojpuri"
+              },
+              {
+                "label": "Burmese",
+                "value": "Burmese"
+              },
+              {
+                "label": "Cebuano (Visayan)",
+                "value": "Cebuano (Visayan)"
+              },
+              {
+                "label": "Chewa",
+                "value": "Chewa"
+              },
+              {
+                "label": "Chhattisgarhi",
+                "value": "Chhattisgarhi"
+              },
+              {
+                "label": "Chittagonian",
+                "value": "Chittagonian"
+              },
+              {
+                "label": "Czech",
+                "value": "Czech"
+              },
+              {
+                "label": "Deccan",
+                "value": "Deccan"
+              },
+              {
+                "label": "Dhundhari",
+                "value": "Dhundhari"
+              },
+              {
+                "label": "Eastern Min (inc. Fuzhounese)",
+                "value": "Eastern Min (inc. Fuzhounese)"
+              },
+              {
+                "label": "Fula",
+                "value": "Fula"
+              },
+              {
+                "label": "Gan Chinese",
+                "value": "Gan Chinese"
+              },
+              {
+                "label": "Greek",
+                "value": "Greek"
+              },
+              {
+                "label": "Gujarati",
+                "value": "Gujarati"
+              },
+              {
+                "label": "Haitian Creole",
+                "value": "Haitian Creole"
+              },
+              {
+                "label": "Hakka",
+                "value": "Hakka"
+              },
+              {
+                "label": "Haryanvi",
+                "value": "Haryanvi"
+              },
+              {
+                "label": "Hausa",
+                "value": "Hausa"
+              },
+              {
+                "label": "Hiligaynon/Ilonggo (Visayan)",
+                "value": "Hiligaynon/Ilonggo (Visayan)"
+              },
+              {
+                "label": "Hindi",
+                "value": "Hindi"
+              },
+              {
+                "label": "Hmong",
+                "value": "Hmong"
+              },
+              {
+                "label": "Hungarian",
+                "value": "Hungarian"
+              },
+              {
+                "label": "Igbo",
+                "value": "Igbo"
+              },
+              {
+                "label": "Ilocano",
+                "value": "Ilocano"
+              },
+              {
+                "label": "Javanese",
+                "value": "Javanese"
+              },
+              {
+                "label": "Jin",
+                "value": "Jin"
+              },
+              {
+                "label": "Kannada",
+                "value": "Kannada"
+              },
+              {
+                "label": "Kazakh",
+                "value": "Kazakh"
+              },
+              {
+                "label": "Khmer",
+                "value": "Khmer"
+              },
+              {
+                "label": "Kinyarwanda",
+                "value": "Kinyarwanda"
+              },
+              {
+                "label": "Kirundi",
+                "value": "Kirundi"
+              },
+              {
+                "label": "Konkani",
+                "value": "Konkani"
+              },
+              {
+                "label": "Kurdish",
+                "value": "Kurdish"
+              },
+              {
+                "label": "Madurese",
+                "value": "Madurese"
+              },
+              {
+                "label": "Magahi",
+                "value": "Magahi"
+              },
+              {
+                "label": "Maithili",
+                "value": "Maithili"
+              },
+              {
+                "label": "Malagasy",
+                "value": "Malagasy"
+              },
+              {
+                "label": "Malay (inc. Malaysian and Indonesian)",
+                "value": "Malay (inc. Malaysian and Indonesian)"
+              },
+              {
+                "label": "Malayalam",
+                "value": "Malayalam"
+              },
+              {
+                "label": "Mandarin (entire branch)",
+                "value": "Mandarin (entire branch)"
+              },
+              {
+                "label": "Marathi",
+                "value": "Marathi"
+              },
+              {
+                "label": "Marwari",
+                "value": "Marwari"
+              },
+              {
+                "label": "Mossi",
+                "value": "Mossi"
+              },
+              {
+                "label": "Nepali",
+                "value": "Nepali"
+              },
+              {
+                "label": "Northern Min",
+                "value": "Northern Min"
+              },
+              {
+                "label": "Odia (Oriya)",
+                "value": "Odia (Oriya)"
+              },
+              {
+                "label": "Oromo",
+                "value": "Oromo"
+              },
+              {
+                "label": "Pashto",
+                "value": "Pashto"
+              },
+              {
+                "label": "Persian",
+                "value": "Persian"
+              },
+              {
+                "label": "Portuguese",
+                "value": "Portuguese"
+              },
+              {
+                "label": "Punjabi",
+                "value": "Punjabi"
+              },
+              {
+                "label": "Quechua",
+                "value": "Quechua"
+              },
+              {
+                "label": "Romanian",
+                "value": "Romanian"
+              },
+              {
+                "label": "Russian",
+                "value": "Russian"
+              },
+              {
+                "label": "Saraiki",
+                "value": "Saraiki"
+              },
+              {
+                "label": "Serbo-Croatian",
+                "value": "Serbo-Croatian"
+              },
+              {
+                "label": "Shona",
+                "value": "Shona"
+              },
+              {
+                "label": "Sindhi",
+                "value": "Sindhi"
+              },
+              {
+                "label": "Sinhalese",
+                "value": "Sinhalese"
+              },
+              {
+                "label": "Somali",
+                "value": "Somali"
+              },
+              {
+                "label": "Southern Min (incl. Hokkien and Teochew)",
+                "value": "Southern Min (incl. Hokkien and Teochew)"
+              },
+              {
+                "label": "Sundanese",
+                "value": "Sundanese"
+              },
+              {
+                "label": "Swedish",
+                "value": "Swedish"
+              },
+              {
+                "label": "Sylheti",
+                "value": "Sylheti"
+              },
+              {
+                "label": "Tagalog (Filipino)",
+                "value": "Tagalog (Filipino)"
+              },
+              {
+                "label": "Tamil",
+                "value": "Tamil"
+              },
+              {
+                "label": "Telugu",
+                "value": "Telugu"
+              },
+              {
+                "label": "Thai",
+                "value": "Thai"
+              },
+              {
+                "label": "Turkish",
+                "value": "Turkish"
+              },
+              {
+                "label": "Turkmen",
+                "value": "Turkmen"
+              },
+              {
+                "label": "Ukrainian",
+                "value": "Ukrainian"
+              },
+              {
+                "label": "Urdu",
+                "value": "Urdu"
+              },
+              {
+                "label": "Uyghur",
+                "value": "Uyghur"
+              },
+              {
+                "label": "Uzbek",
+                "value": "Uzbek"
+              },
+              {
+                "label": "Vietnamese",
+                "value": "Vietnamese"
+              },
+              {
+                "label": "Wu (e.g. Shanghainese)",
+                "value": "Wu (e.g. Shanghainese)"
+              },
+              {
+                "label": "Xhosa",
+                "value": "Xhosa"
+              },
+              {
+                "label": "Xiang (Hunanese)",
+                "value": "Xiang (Hunanese)"
+              },
+              {
+                "label": "Yoruba",
+                "value": "Yoruba"
+              },
+              {
+                "label": "Yue (incl. Cantonese)",
+                "value": "Yue (incl. Cantonese)"
+              },
+              {
+                "label": "Zhuang",
+                "value": "Zhuang"
+              },
+              {
+                "label": "Zulu",
+                "value": "Zulu"
+              },
+              {
+                "label": "Other",
+                "value": "Other"
+              }
+            ],
+            "required": true
+          },
+          "question_text": "Select which languages you're fluent in"
+        },
+        {
+          "id": "workspace",
+          "type": "boolean",
+          "metadata": {
+            "required": true
+          },
+          "question_text": "Do you have access to a private workspace?"
+        },
+        {
+          "id": "experience",
+          "type": "textarea",
+          "metadata": {
+            "required": true,
+            "placeholder": "Please elaborate..."
+          },
+          "question_text": "What's your experience working in Customer Service?"
+        },
+        {
+          "id": "hours_on_project",
+          "type": "text",
+          "metadata": {
+            "format": "number",
+            "step": 1,
+            "placeholder": "Hours..."
+          },
+          "question_text": "How many hours per week could you dedicate to the project, including training?"
+        }
+      ]
+    }
+  ]
+}
